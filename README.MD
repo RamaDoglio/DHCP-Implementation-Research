@@ -10,6 +10,7 @@ Este repositorio documenta mi investigación sobre diferentes formas de implemen
 | Parte | Tema |
 | :--- | :--- |
 | **Parte 1** | DHCP con servidor dedicado por red/VLAN (Server-PT) |
+| **Parte 2** | DHCP directamente en routers de capa 3 |
 
 ---
 
@@ -28,6 +29,7 @@ Este repositorio documenta mi investigación sobre diferentes formas de implemen
 | Parte | Aprendizaje |
 | :--- | :--- |
 | **Parte 1** | El Server-PT tiene una particularidad: el pool por defecto (`serverPool`) funciona mejor que los pools creados manualmente para transmitir el Gateway. |
+| **Parte 2** | Los nombres de los pools DHCP en el router deben ser únicos. Si se repiten, el router sobreescribe la configuración anterior sin avisar. |
 
 ---
 
